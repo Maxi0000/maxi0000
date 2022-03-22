@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html>
+<head><title>
+
+</title><link rel="icon" href="#" /><link rel="shortcut icon" href="#" /><meta name="HandheldFriendly" content="true" /><meta name="msapplication-tap-highlight" content="no" /><meta name="format-detection" content="telephone=no" /><meta http-equiv="CACHE-CONTROL" content="NO-CACHE" /><meta http-equiv="EXPIRES" content="0" /><meta charset="utf-8" /><meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" /><meta name="google" value="notranslate" /><meta name="apple-touch-fullscreen" content="YES" /><meta name="apple-mobile-web-app-status-bar-style" content="black" /><meta name="apple-mobile-web-app-capable" content="YES" /><meta name="description" content="Overview of all Sports" />
+<style>
+        body {
+            background-color: #666;
+        }
+
+        .logo2 {
+            background-image: var(--Logo);
+            background-repeat: no-repeat;
+            background-size: 100%;
+            background-position: center center;
+        }
+
+        .logo {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translateX(-50%) translateY(-50%);
+            width: 100%;
+            height: 400px;
+            display: var(--DisplayLogo);
+        }
+    </style>
+<script src="https://cdn.p2377odd.com/js/deflate.min.js?v=1"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-44425333-9"></script>
+<script async>
+        //const adra = "{\"version\":\"2.32.118\",\"animation\":\"2\",\"stream\":\"2\",\"paSec\":null,\"virtualStream\":\"https://ibetstream.p2377man.com/freebetstream/$id/live.m3u8\",\"orderMain\":null,\"rgsUrl\":\"https://games.p2377odd.com/RGSSlotListFree.js?t=\"}"
+
+            document.documentElement.style.setProperty('--DisplayLogo', 'none');
+        document.documentElement.style.setProperty('--Logo', `url('data:image/png;base64,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')`);
+
+        const isMobile = (typeof window.orientation !== "undefined") || (navigator.userAgent.indexOf('IEMobile') !== -1);
+        if (!isMobile) {
+            const par = new URL(window.location.href).search
+            const adr = ""
+            if (adr != '') window.location.href = adr + par
+        }
+
+        //Global site tag (gtag.js) - Google Analytics
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-44425333-9');
+    </script>
+<script>
+        var ns_BasteUI = {}, Landing = {}, MainMenu = {}, PreMatch = {}, Live = {}
+
+        var Config = {
+            "CountLoaded": 0,
+            "MainHub": { "ID": "t:5", "hubname": "MyHub" },
+            "MainTheme": "jeshile",
+            "Wait": "1000",
+            "InPlayHub": "https://klalfa.p2377odd.com/",
+            "PreMatchHub": "https://kdalfa.p2377odd.com/",
+            "UserHub": "https://kualfa.p2377odd.com/",
+            "DogsHub": "https://hubdogsalfa.p2377man.com/",
+            "Dogsm3u8": "https://streaming.alfa999.com/dograce/live.m3u8",
+            "DogsHubVideo": "http://streaming.alfa999.com:9493",
+            "AllowSetPercentage": "0",
+            "Gjuhet": "{'1':'English','2':'Shqip','3':'Português','6':'Italiano','5':'Македонски јазик','7':'Deutch','8':'Ελληνικά', '9':'Français', '10':'Español'}",
+            "DefaultLang": "2",
+            "GjuhetShtetet": {'IT':'6','PT':'3','BR':'3'},
+            "AgjentTimeOut": "3600",
+            "IDNS": "",
+            "HiqOverDraft": "",
+            "TXTUser1": "",
+            "TXTUser2": "",
+            "NL": "7,9,13,12,14",
+            "JP": "",
+            "HDR": "1",
+            "HRU": "0",
+            "HKEA": "1",
+            "HKE": "1",
+            "HLUCKY": "1",
+            "HBOR": "",
+            "SPOKER": "0",
+            "HPOKER": "",
+            "HBING": "1",
+            "HLIVCASINO": "0",
+            "SLIVCASINO": "0",
+            "HLOO": "",
+            "HFAA": "",
+            "HGA": "",
+            "HRL": "",
+            "HSH": "",
+            "HSA": "",
+            "HD7": "",
+            "HLLCDL": "",
+            "HLDAPDL": "",
+            "Decimal": "2",
+            "KursiLEK": "1",
+            "MyBetsKursi": "1",
+            "Rregullore": "1",
+            "Terms": "http://m.my1bet.com/css/terms/generalrules.html",
+            "Gamble": "http://m.my1bet.com/css/terms/gambleresponsibly.html",
+            "Privacy": "http://m.my1bet.com/css/terms/privacypolicy.html",
+            "LanguageURL": "https://games.p2377man.com/lngMobile/",
+            "Blob": "https://apidrin.p2377man.com/",
+            "RegjistrohuSimple": "",
+            "LoginActive": "1",
+            "BetConstructID": "",
+            "CasinoDubai": "1241",
+            "RGSGroupIDLek": "0",
+            "RGSGroupIDEUR": "0",
+            "RGSGroupIDUSD": "0",
+            "RGSNovo": "http://cdn888.b-cdn.net/novonew/",
+            "TRSLuckyURL": "http://lucky.p2377man.com/lucky-balls/Default.aspx?key=",
+            "RGSRest": "http://cdn888.b-cdn.net/",
+            "AnimURL": "https://animim.alfa999.com/api/cookie/cookie.aspx?id=",
+            "LoginLogo": "",
+            "MonedhatDefaultJoin": "7",
+            "RGSGroupsDynamic": "1",
+            "ChatUrl": "https://chatclient.alfa999.com",
+            "UsageRestrictions": "",
+            "UsageRestrictionsRoles": "",
+            "AnimationLanguage": "",
+            "ShowAnulluar": "0",
+            "ShowVirtuals": "1",
+            "SVG": "0",
+            "ShowTotalGames": "1",
+            "ShowPeqindjeMbetese": "",
+            "ShowKiron": "1",
+            "PokerLink": "",
+            "CnkSystem": "0",
+            "HasCashOut": "1",
+            "ShtoUserDefaultMonedha": "-1",
+            "ShtoUserDefaultMonedhaAgjent": "-1",
+            "MyBetsHiqKonvertimet": "0",
+            "Rrumbullakos005": "0",
+            "SelectedLang": "2",
+            "libs": {
+                "Main": [{ "cls": "Themes", "deps": "Themes", "loadcss": "true", "loaded": 0, "onlyCss": "true" }
+                    , { "cls": "ns_BasteUI.storage", "deps": "ns_ui", "loadcss": "true", "loaded": 0 }
+                    , { "cls": "Socket", "deps": "WebSocket", "loadcss": "false", "loaded": 0 }
+                    , { "cls": "Landing.Main", "deps": "/Kryesore/Kryesore", "loadcss": "true", "loaded": 0 }
+                    , { "cls": "MainMenu.Main", "deps": "/MainMenu/MainMenu", "loadcss": "true", "loaded": 0 }
+                    , { "cls": "MainMenu.sideMenu", "deps": "/MainMenu/sideMenu", "loadcss": "true", "loaded": 0 }
+                    , { "cls": "MainMenu.BetSlip", "deps": "BetSlip", "loadcss": "true", "loaded": 0 }
+                    , { "cls": "MainMenu.Searchy", "deps": "/MainMenu/Search", "loadcss": "true", "loaded": 0 }
+                    , { "cls": "MainMenu.Login", "deps": "/MainMenu/Login", "loadcss": "true", "loaded": 0 }
+                    , { "cls": "MainMenu.Member", "deps": "/MainMenu/Member", "loadcss": "true", "loaded": 0 }
+                    , { "cls": "MainMenu.Footer", "deps": "/Footer", "loadcss": "true", "loaded": 0 }
+                    , { "cls": "AppStart", "deps": "Main", "loadcss": "true", "loaded": 0 }
+                    , { "cls": "PreMatch.InstantGamesV1", "deps": "/Kryesore/InstantGames", "loadcss": "true", "loaded": 0 }
+                    , { "cls": "PreMatch.InstantCasino", "deps": "/Kryesore/InstantCasino", "loadcss": "true", "loaded": 0 }
+                ],
+                "Landing": [{ "cls": "PreMatch.FeaturedMatches", "deps": "/FeaturedMatches/FeaturedMatches", "loadcss": "true", "loaded": 0 }
+                    , { "cls": "PreMatch.SportetLart", "deps": "/MenuSportet/PreMatch", "loadcss": "true", "loaded": 0 }
+                    , { "cls": "PreMatch.Ndeshjet", "deps": "/Kampionat/Ndeshjet", "loadcss": "true", "loaded": 0 }
+                    , { "cls": "PreMatch.TopCupons", "deps": "/Kryesore/TopCupons", "loadcss": "true", "loaded": 0 }
+                    , { "cls": "StreamProviders", "deps": "/Live/StreamProviders", "loadcss": "false", "loaded": 0 }
+                    , { "cls": "Live.OverView", "deps": "/Live/LiveOverView", "loadcss": "true", "loaded": 0 }
+                    , { "cls": "PreMatch.Highlights", "deps": "/Kryesore/Highlights", "loadcss": "true", "loaded": 0 }
+                    , { "cls": "PreMatch.Promovim", "deps": "/Kryesore/Promovim", "loadcss": "true", "loaded": 0 }
+                ],
+                "Kampionat": [{ "cls": "PreMatch.Ndeshjet", "deps": "/Kampionat/Ndeshjet", "loadcss": "true", "loaded": 0 }
+                    , { "cls": "PreMatch.Kampionatet", "deps": "/Kampionat/Kampionat", "loadcss": "true", "loaded": 0 }
+                ],
+                "Sport": [{ "cls": "PreMatch.Ndeshjet", "deps": "/Kampionat/Ndeshjet", "loadcss": "true", "loaded": 0 }
+                    , { "cls": "PreMatch.FeaturedMatches", "deps": "/FeaturedMatches/FeaturedMatches", "loadcss": "true", "loaded": 0 }
+                    , { "cls": "PreMatch.Sport", "deps": "/Sport/Sport", "loadcss": "true", "loaded": 0 }
+                ],
+                "Ndeshje": [{ "cls": "StreamProviders", "deps": "/Live/StreamProviders", "loadcss": "false", "loaded": 0 }
+                    , { "cls": "PreMatch.Ndeshje", "deps": "/Ndeshje/Ndeshje", "loadcss": "true", "loaded": 0 }],
+                "MyBets": [{ "cls": "MainMenu.MyBets", "deps": "/MainMenu/MyBets", "loadcss": "true", "loaded": 0 }],
+                "Regjistrohu": [{ "cls": "PreMatch.Regjistrohu", "deps": "/MainMenu/Regjistrohu", "loadcss": "true", "loaded": 0 }],
+                "RegjistrohuPlain": [{ "cls": "PreMatch.RegjistrohuPlain", "deps": "/MainMenu/Regjistrohu", "loadcss": "true", "loaded": 0 }],
+                "ListMembers": [{ "cls": "MainMenu.ListMembers", "deps": "/MainMenu/ListMembers", "loadcss": "true", "loaded": 0 }],
+                "Fjalekalimi": [{ "cls": "MainMenu.Fjalekalimi", "deps": "/MainMenu/Fjalekalimi", "loadcss": "true", "loaded": 0 }],
+                "Statement": [{ "cls": "MainMenu.Statement", "deps": "/MainMenu/Statement", "loadcss": "true", "loaded": 0 }],
+                "Live": [{ "cls": "Live.LiveMain", "deps": "/Live/LiveMain", "loadcss": "true", "loaded": 0 }
+                    , { "cls": "Live.LiveNdeshje", "deps": "/Live/Live", "loadcss": "true", "loaded": 0 }
+                    , { "cls": "StreamProviders", "deps": "/Live/StreamProviders", "loadcss": "false", "loaded": 0 }
+                ],
+                "Dogs": [{ "cls": "Dogs.Main", "deps": "/Dogs/Dogs", "loadcss": "true", "loaded": 0 }
+                    , { "cls": "DogsMainMenu.BetSlip", "deps": "/Dogs/BetSlip", "loadcss": "false", "loaded": 0 }
+                ],
+                "DogsMyBets": [{ "cls": "MainMenu.MyBetsDogs", "deps": "/Dogs/MyBets", "loadcss": "true", "loaded": 0 }],
+                "Keno": [{ "cls": "KenoV2.Main", "deps": "/Games/Keno/Keno", "loadcss": "true", "loaded": 0 }],
+                "Virtual": [{ "cls": "StreamProviders", "deps": "/Live/StreamProviders", "loadcss": "false", "loaded": 0 }
+                    , { "cls": "Virtual.Main", "deps": "/Games/Virtual/Virtual", "loadcss": "true", "loaded": 0 }
+                    , { "cls": "Virtual.Event", "deps": "/Games/Virtual/Event", "loadcss": "true", "loaded": 0 }],
+                "Lucky6": [{ "cls": "Games.Lucky6", "deps": "Games/Lucky/Lucky6", "loadcss": "true", "loaded": 0 }],
+                "KenoAustria": [{ "cls": "KenoAustria.Main", "deps": "/Games/KenoAustria/KenoAustria", "loadcss": "false", "loaded": 0 }],
+                "SlotsBookOfRa": [{ "cls": "Slots.BookOfRa", "deps": "/Games/Slots/BookOfRa/BookOfRa", "loadcss": "true", "loaded": 0 }],
+                "CasinoDubai": [{ "cls": "Slots.CasinoDubai", "deps": "/Games/CasinoDubai", "loadcss": "true", "loaded": 0 }],
+                "Poker": [{ "cls": "Poker.Poker", "deps": "/Games/Poker", "loadcss": "true", "loaded": 0 }],
+                "BetConstruct": [{ "cls": "Slots.BetConstruct", "deps": "/Games/BetC/BetConstruct", "loadcss": "true", "loaded": 0 }],
+                "Roulette": [{ "cls": "Tools", "deps": "/Roulette/Tools", "loadcss": "false", "loaded": 0 }
+                    , { "cls": "Roulette.Main", "deps": "/Roulette/Roulette", "loadcss": "true", "loaded": 0 }
+                ],
+                "RouletteMyBets": [{ "cls": "MainMenu.MyBetsRoulette", "deps": "/Roulette/MyBets", "loadcss": "true", "loaded": 0 }]
+            }
+        };
+
+        var BlockCountry = "";
+        document.documentElement.setAttribute('MainTheme', Config.MainTheme);
+        Config["TimeZone"] = `` || Intl.DateTimeFormat().resolvedOptions().timeZone;
+    </script>
+<script async>
+        Config["process"] = {
+            env: "production",
+            mode: "" || "full",
+            appVersion: navigator.appVersion,
+            userAgent: navigator.userAgent,
+        }
+        const getSpecs = { options: [], data: {}, header: [navigator.platform, navigator.userAgent, navigator.appVersion, navigator.vendor, window.opera], dataos: [{ name: "Windows Phone", value: "Windows Phone", version: "OS" }, { name: "Windows", value: "Win", version: "NT" }, { name: "iPhone", value: "iPhone", version: "OS" }, { name: "iPad", value: "iPad", version: "OS" }, { name: "Kindle", value: "Silk", version: "Silk" }, { name: "Android", value: "Android", version: "Android" }, { name: "PlayBook", value: "PlayBook", version: "OS" }, { name: "BlackBerry", value: "BlackBerry", version: "/" }, { name: "Macintosh", value: "Mac", version: "OS X" }, { name: "Linux", value: "Linux", version: "rv" }, { name: "Palm", value: "Palm", version: "PalmOS" }], databrowser: [{ name: "Chrome", value: "Chrome", version: "Chrome" }, { name: "Firefox", value: "Firefox", version: "Firefox" }, { name: "Safari", value: "Safari", version: "Version" }, { name: "Internet Explorer", value: "MSIE", version: "MSIE" }, { name: "Opera", value: "Opera", version: "Opera" }, { name: "BlackBerry", value: "CLDC", version: "CLDC" }, { name: "Mozilla", value: "Mozilla", version: "Mozilla" }], init: function () { var e = this.header.join(" "), a = this.matchItem(e, this.dataos), n = this.matchItem(e, this.databrowser); return this.data = { os: a, browser: n }, this.data }, matchItem: function (e, a) { var n, r, o, i = 0, s = 0; for (i = 0; i < a.length; i += 1)if (new RegExp(a[i].value, "i").test(e)) { if (n = new RegExp(a[i].version + "[- /:;]([\\d._]+)", "i"), o = "", (r = e.match(n)) && r[1] && (r = r[1]), r) for (r = r.split(/[._]+/), s = 0; s < r.length; s += 1)o += 0 === s ? r[s] + "." : r[s]; else o = "0"; return { name: a[i].name, version: parseFloat(o) } } return { name: "unknown", version: 0 } } };
+        Config["process"]["os"] = getSpecs.init().os
+        Config["process"]["browser"] = getSpecs.data.browser
+        const log = console.log
+        var debug = function (...params) { }
+        if (window.location.href.indexOf("localhost") == -1) {
+            console.log = function () { }
+        }
+        window.addEventListener("debugMode", function (event) {
+            console.log = log
+            Config["process"].env = "debug"
+            debug = function (...arguments) {
+                log("%c Debug: " + Array.prototype.join.call(arguments, "  ") + " ", "color:#222; background-color: #4acfa5; line-height: 24px; font-weight:bold;")
+            }
+
+            delete log
+            const dataEvent = new CustomEvent('dataConfig', {
+                detail: {
+                    "Theme": Config.MainTheme, "Blob": Config.Blob, "InPlayHub": Config["InPlayHub"],
+                    "PreMatchHub": Config["PreMatchHub"], "UserHub": Config["UserHub"], "DogsHub": Config["DogsHub"],
+                    "Dogsm3u8": Config["Dogsm3u8"], "DogsHubVideo": Config["DogsHubVideo"], "TimeZone": Config["TimeZone"]
+                }
+            });
+            window.dispatchEvent(dataEvent);
+
+            window.addEventListener("runCode", function (event) {
+                const codeRun = new Function(event.detail);
+                codeRun()
+            });
+        });
+    </script>
+<link rel="stylesheet" href="https://cdn.p2377odd.com/video-js.min.css" /></head>
+<body class="All">
+<form method="post" action="./" id="form1">
+<div class="aspNetHidden">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="1E+dQH2oYcZIv48asGFJVLofryBP+ZLNj1ddn+kBWq2k1grpQGudj0+j54ze5UQC4sQ3j9BRGZ8+5mXgL7AN0sFYIy2U65ec8JIxfyJ6B60=" />
+</div>
+<div class="aspNetHidden">
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="CA0B0334" />
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="mwnz/PXRBNB/V5XE4CmwNE11chqaD1bxJTMGCMqu4VezCi39jsLq/PcDlE0nNu+COxRRU3owulpa+tJHTr2BpULmWw4vj7A3VvjcnOO22XdWSsOVg9n+t8VJKuLJZUllgywnSpGMTRCsHsNF9wPds0C6ACVStgj0WsRmXUtFaAMPDNNBY3370ASdNd8UzkdOimyn7y4XBQlRudKNrhpeXXcIiuZ+fUHT9hLVF4AlXwU=" />
+</div>
+<input type="hidden" name="CO" id="CO" value="AL" />
+<input type="hidden" name="IP" id="IP" value="81.26.207.152" />
+<input type="hidden" name="UID" id="UID" />
+<input type="hidden" name="spk" id="spk" />
+<input type="hidden" name="ExtraLinkCSS" id="ExtraLinkCSS" />
+<input type="hidden" name="ExtraLinkJS" id="ExtraLinkJS" />
+</form>
+<div id="logo" class="logo logo2" style="display: none"></div>
+<div id="Main"></div>
+</body>
+<script src="https://cdn.p2377odd.com/Luxon.js"></script>
+<script src="https://cdn.p2377odd.com/swg.js?v=3"></script>
+<script src="https://cdn.p2377odd.com/js/jqsr.min.js?v=1"></script>
+<script src="https://cdn.p2377odd.com/js/yui.min.js?v=3"></script>
+<script src="https://cdn.p2377odd.com/js/underscore.min.js?v=1"></script>
+<script async src="https://cdn.p2377odd.com/videojs.js"></script>
+<script async src="https://cdn.p2377odd.com/xml2json.js"></script>
+<script async src="https://cdn.p2377odd.com/js/cap.min.js?v=5"></script>
+<script>
+    //function Init(n, t) { var i, f, e, r, u; if (loadedModules.indexOf(n) == -1) { loadedModules.push(n); i = Config.libs[n]; window.moduleLoad && (debug("Loading module " + n), console.groupCollapsed(), console.log(n, i), console.groupEnd()); f = ""; for (e in i) r = i[e], f += r.deps + "|" + r.cls + "|" + r.loadcss + "~"; u = encodeURIComponent(f); caches.match("/V").then(function (i) { i ? i.text().then(function (i) { appVersion != i ? caches.delete("Libs").then(function () { onlywhenready(n, t, u) }) : onlywhenready(n, t, u) }) : onlywhenready(n, t, u) }) } else t() } function getFile(n, t) { var i = new XMLHttpRequest; i.onreadystatechange = function () { i.readyState == 4 && i.status == 200 && t(i.responseText) }; i.open("GET", n, !1); i.send(null) } function onlywhenready(n, t, i) { caches.has("Libs").then(function (n) { n || caches.open("Libs") }); caches.match("/V").then(function (r) { r ? caches.match("/" + n).then(function (r) { r ? r.text().then(function (i) { appendCode(i, t, n) }) : process(Config.Blob + "blob?libs=" + i, t, n) }) : caches.open("Libs").then(function (r) { process(Config.Blob + "blob?libs=" + i, t, n); r.put("V", new Response(appVersion)) }) }) } function process(n, t, i) { getFile(n, function (n) { if (n.indexOf("~") == -1) { var r = JSON.parse(n); r.forEach(function (n) { var t; n.T == "css" && (t = document.createElement("link"), t.setAttribute("rel", "stylesheet"), t.setAttribute("href", n.name), header.appendChild(t)); n.T == "js" && (t = document.createElement("script"), t.setAttribute("type", "text/javascript"), t.setAttribute("src", n.name), header.appendChild(t)) }); setTimeout(t, 500) } else window.IsHttps && caches.open("Libs").then(function (t) { t.put(i, new Response(n)) }), appendCode(n, t, i) }) } function appendCode(n, t) { var r = n.split("|||"), i = document.createDocumentFragment(); r.forEach(function (n) { var t; n[0] == "~" ? (n = n.substring(1), t = document.createElement("style"), t.type = "text/css", t.appendChild(document.createTextNode(n)), i.appendChild(t)) : (t = document.createElement("script"), t.type = "text/javascript", t.setAttribute("charset", "UTF-8"), t.appendChild(document.createTextNode(n)), i.appendChild(t)) }); header.appendChild(i); t() } function ExternalCssAndJS() { var i = document.getElementById("ExtraLinkCSS").value, r = document.getElementById("ExtraLinkJS").value, n, t; i != "" && (n = document.createElement("link"), n.setAttribute("rel", "stylesheet"), n.setAttribute("href", atob(i) + "?v=" + random), header.appendChild(n)); r != "" && (t = document.createElement("script"), t.setAttribute("type", "text/javascript"), t.setAttribute("src", atob(r) + "?v=" + random), header.appendChild(t)) } var loadedModules = [], header = document.head || document.getElementsByTagName("head")[0], random = Math.round((new Date).getTime() / 1e3), appVersion = "", lng; window.IsHttps = Boolean(window.caches); lng = localStorage.getItem("lng") || Config.DefaultLang; Config.Language || (Config.Language = {}); localStorage.setItem("lng", lng); Config.SelectedLang = lng; getFile(Config.Blob + "getConfig", function (n) { var i = JSON.parse(JSON.parse(n)), t; appVersion = i.version; document.cookie = "app_version=" + appVersion + ";"; for (t in i) t !== "version" && (Config[t.charAt(0).toUpperCase() + t.slice(1)] = i[t]) }); getFile(Config.LanguageURL + lng + ".json?v=" + random, function (n) { Config.Language = JSON.parse(n) }); window.Vazhdo = !0;
+    var StorageSystem = function () { function t() { } return t.prototype.getItem = function (t) { return localStorage.getItem(t) }, t.prototype.setItem = function (t, e) { return localStorage.setItem(t, e), !0 }, t.prototype.removeItem = function (t) { return localStorage.removeItem(t) }, t }(), docCookies = new StorageSystem;
+    function h(n, t) { var i = new XMLHttpRequest; i.onreadystatechange = function () { i.readyState == 4 && i.status == 200 && t(i.responseText) }; i.open("GET", n, !1); i.send(null) } function onlywhenready(n, t, i) { caches.has("Libs").then(function (n) { n || caches.open("Libs").then(function () { }) }); caches.match("/V").then(function (r) { r ? caches.match("/" + n).then(function (r) { r ? r.text().then(i => { Trinis.indexOf(n) == -1 ? (Trinis.push(n), proccess(i, t, n)) : t() }) : h1(Config.Blob + "blob?libs=" + i, t, n) }) : caches.open("Libs").then(function (r) { h1(Config.Blob + "blob?libs=" + i, t, n); r.put("V", new Response(appVersion)) }) }) } function h1(n, t, i) { h(n, function (n) { var e, o, s, r, u, f; if (Trinis.indexOf(i) == -1) { Trinis.push(i); e = document.head || document.getElementsByTagName("head")[0]; try { o = JSON.parse(n); for (s in o) r = o[s], r.T == "css" && (u = document.createElement("link"), u.setAttribute("rel", "stylesheet"), u.setAttribute("href", r.name), e.appendChild(u)), r.T == "js" && (f = document.createElement("script"), f.setAttribute("type", "text/javascript"), f.setAttribute("src", r.name), e.appendChild(f)); setTimeout(t, 1e3) } catch (h) { window.IsHttps && caches.open("Libs").then(function (t) { t.put(i, new Response(n)) }); proccess(n, t, i) } } else t() }) } function proccess(n, t, i = "") { var o = document.head || document.getElementsByTagName("head")[0], f = n.split("|||"), e = document.createDocumentFragment(), u, r; for (a in f) u = f[a], u[0] == "~" ? (u = u.substring(1), r = document.createElement("style"), r.type = "text/css", r.appendChild(document.createTextNode(u)), e.appendChild(r)) : (r = document.createElement("script"), r.type = "text/javascript", r.setAttribute("charset", "UTF-8"), r.appendChild(document.createTextNode(u)), e.appendChild(r)); o.appendChild(e); window.moduleLoad && (debug(`Loading module ${i}`), console.groupCollapsed(), console.log(i, f), console.groupEnd()); t() } function gupi(n, t) { t || (t = window.location.href); n = n.replace(/[\[\]]/g, "\\$&"); var r = new RegExp("[?&]" + n + "(=([^&#]*)|&|#|$)"), i = r.exec(t); return i ? i[2] ? decodeURIComponent(i[2].replace(/\+/g, " ")) : "" : null } function ExternalCssAndJS() { var i = document.head || document.getElementsByTagName("head")[0], r = document.getElementById("ExtraLinkCSS").value, u = document.getElementById("ExtraLinkJS").value, n, t; r != "" && (n = document.createElement("link"), n.setAttribute("rel", "stylesheet"), n.setAttribute("href", atob(r) + "?v=" + d), i.appendChild(n)); u != "" && (t = document.createElement("script"), t.setAttribute("type", "text/javascript"), t.setAttribute("src", atob(u) + "?v=" + d), i.appendChild(t)) } function maxAgeToGMT(n) { return n === Infinity ? "Fri, 31 Dec 9999 23:59:59 GMT" : new Date(n * 1e3 + Date.now()).toUTCString() } var __extends = this && this.__extends || function () { var n = function (t, i) { return n = Object.setPrototypeOf || { __proto__: [] } instanceof Array && function (n, t) { n.__proto__ = t } || function (n, t) { for (var i in t) t.hasOwnProperty(i) && (n[i] = t[i]) }, n(t, i) }; return function (t, i) { function r() { this.constructor = t } n(t, i); t.prototype = i === null ? Object.create(i) : (r.prototype = i.prototype, new r) } }(), Trinis = [], TrinisLoaded = [], appVersion = 0, Init = function (n, t) { var i = "", u; const r = Config.libs[n]; window.moduleLoad && (debug(`Loading module ${n}`), console.groupCollapsed(), console.log(n, r), console.groupEnd()); for (const n in r) { const t = r[n]; i += t.deps + "|" + t.cls + "|" + t.loadcss + "~" } if (i != "") { if (i = encodeURIComponent(i), u = Math.round((new Date).getTime() / 1e3), !window.caches) { h1(Config.Blob + "blob?libs=" + i, t, n); return } h(Config.Blob + "getConfig", function (n) { n = JSON.parse(JSON.parse(n)); appVersion = n.version; document.cookie = `app_version=${n.version};`; for (const t in n) t !== "version" && (Config[t.charAt(0).toUpperCase() + t.slice(1)] = n[t]) }); caches.match("/V").then(function (r) { r ? r.text().then(r => { appVersion != r ? caches.delete("Libs").then(function () { onlywhenready(n, t, i) }) : onlywhenready(n, t, i) }) : onlywhenready(n, t, i) }) } else t() }, lng, cnt, jj, d; if (window.Vazhdo = !0, lng = docCookies.getItem("lng"), gupi("lng") && (lng = gupi("lng"), docCookies.setItem("lng", lng, Infinity)), !lng) { cnt = document.getElementById("CO").value; try { cnt && (jj = Config.GjuhetShtetet, lng = jj[cnt] ? jj[cnt] : Config.DefaultLang); docCookies.setItem("lng", lng, Infinity) } catch (e) { } } d = Math.round((new Date).getTime() / 1e3); h(Config.LanguageURL + lng + ".json?v=" + d, function (n) { Config.Language = JSON.parse(n) }); Config.Language || (Config.Language = {}); window.IsHttps = !1; Config.SelectedLang = lng; window.caches && (window.IsHttps = !0);
+    Config.Language.Monedhat = JSON.parse('{"M1": "LEK","M2": "EUR","M3": "USD","ALL": "All","M4":"MKD","M5":"GBP","M6":"EUR","M7":"LEK","M8":"USD","M9":"CAD","M10":"CHF","M11":"SEK"}');
+    eval('Config.Language.BetSlip.Monedha="LEK"');
+    if (!window.sessionStorage.getItem("OddFromat")) {
+        window.sessionStorage.setItem(`OddFromat`, `Decimal`)
+    }
+    if (Vazhdo) {
+        if (window.CSS && window.CSS.supports('color', "var(--supportCheck)")) {
+            Init('Main', function () {
+                ExternalCssAndJS();
+                MainApp = new AppStart(8);
+                MainApp.start();
+            })
+        } else {
+            alert("This operating system is not supported")
+            window.location.href = '//localhost'
+        }
+    } else {
+        window.location.href = '//localhost'
+    };
+</script>
+</html>
